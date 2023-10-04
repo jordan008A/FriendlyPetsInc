@@ -2,12 +2,17 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #eed153; /* Marron */
+  color: #333; /* Couleur de texte par défaut */
 }
 
 header {
   text-align: center;
   background-color: #ecdfa5; /* Marron clair */
   padding: 20px;
+}
+
+header p {
+  font-weight: bold;
 }
 
 h1, h2, form label {
@@ -26,6 +31,8 @@ nav ul li {
 }
 
 nav a {
+  color: #333;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -64,4 +71,37 @@ footer {
   background-color: #ecdfa5; /* Marron clair pour le pied de page */
   padding: 10px;
   margin-top: 20px;
+}
+
+/* Media Query pour les écrans de petite taille (moins de 500px) */
+@media screen and (max-width: 500px) {
+  header {
+      padding: 10px;
+  }
+
+  nav ul {
+      margin-top: 10px;
+  }
+
+  nav ul li {
+      margin: 0 5px;
+  }
+
+  section {
+      padding: 10px;
+      margin: 10px;
+  }
+
+  form label {
+      font-size: 16px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="submit"] {
+      font-size: 16px;
+      width: 70%;
+  }
 }
