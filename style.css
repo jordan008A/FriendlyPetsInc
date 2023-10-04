@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eed153; /* Marron */
+}
+
+header {
+  text-align: center;
+  background-color: #ecdfa5; /* Marron clair */
+  padding: 20px;
+}
+
+h1, h2, form label {
+  color: #c29929c7; /* Marron foncé */
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  background-color: #fff; /* Fond blanc pour les sections */
+  margin: 20px;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #c29929c7;
+  color: #fff; /* Texte blanc pour le bouton de soumission */
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #ecdfa5; /* Marron clair pour le pied de page */
+  padding: 10px;
+  margin-top: 20px;
+}

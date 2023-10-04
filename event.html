@@ -14,18 +14,55 @@
     </header>
     
     <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#details">Détails de l'événement</a></li>
+            <li><a href="#contact">Contactez-nous</a></li>
+        </ul>
     </nav>
     
     <section id="details">
+        <h2>Détails de l'événement</h2>
+        <p>Date : 28 octobre 2023</p>
+        <p>Départ : De 8h à 10h</p>
+        <p>Lieu : Place centrale</p>
+        <p>Description : Rejoignez-nous pour un parcours de 15km en pleine nature.
+          Avant votre départ, vous pourrez prendre en laisse un de nos loulous afin de lui faire profiter
+          de la balade et pourquoi pas si le courant passe entre vous lui faire débuter une nouvelle
+          vie d'amour et de tendresse. Un pique-nique vous attendra à votre arrivé afin de partager
+          un moment convivial avec les différents participants.</p>
     </section>
     
     <section id="registration">
+        <h2>Inscription à l'événement</h2>
+        <p>Pour vous inscrire à notre événement, veuillez remplir le formulaire ci-dessous :</p>
+        
+        <form action="" method="">
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Adresse email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="attendees">Nombre de participants :</label>
+            <input type="number" id="attendees" name="attendees" required><br><br>
+            
+            <input type="submit" value="S'inscrire">
+        </form>
     </section>
     
     <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour plus d'informations sur cet événement, envoyez un email à : 
+          <a href="mailto:events@friendlypetsinc.org">events@friendlypetsinc.org</a>
+          ou venez au refuge pendant nos horaires d'ouvertures.</p>
     </section>
     
     <footer>
+        <p>2023 FriendlyPetsInc.</p>
     </footer>
 </body>
 </html>
